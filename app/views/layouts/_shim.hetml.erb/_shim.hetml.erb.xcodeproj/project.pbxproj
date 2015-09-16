@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AED3511BA982E100E951B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AED3501BA982E100E951B1 /* Cocoa.framework */; };
+		10AED35B1BA982E100E951B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10AED3591BA982E100E951B1 /* InfoPlist.strings */; };
+		10AED35D1BA982E100E951B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AED35C1BA982E100E951B1 /* main.m */; };
+		10AED3611BA982E100E951B1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 10AED35F1BA982E100E951B1 /* Credits.rtf */; };
+		10AED3641BA982E100E951B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AED3631BA982E100E951B1 /* AppDelegate.m */; };
+		10AED3671BA982E100E951B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10AED3651BA982E100E951B1 /* MainMenu.xib */; };
+		10AED3691BA982E100E951B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10AED3681BA982E100E951B1 /* Images.xcassets */; };
+		10AED3701BA982E200E951B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AED36F1BA982E200E951B1 /* XCTest.framework */; };
+		10AED3711BA982E200E951B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AED3501BA982E100E951B1 /* Cocoa.framework */; };
+		10AED3791BA982E200E951B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10AED3771BA982E200E951B1 /* InfoPlist.strings */; };
+		10AED37B1BA982E200E951B1 /* _shim_hetml_erbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AED37A1BA982E200E951B1 /* _shim_hetml_erbTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10AED3721BA982E200E951B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10AED3451BA982E100E951B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10AED34C1BA982E100E951B1;
+			remoteInfo = _shim.hetml.erb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10AED34D1BA982E100E951B1 /* _shim.hetml.erb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _shim.hetml.erb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AED3501BA982E100E951B1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		10AED3531BA982E100E951B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		10AED3541BA982E100E951B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		10AED3551BA982E100E951B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10AED3581BA982E100E951B1 /* _shim.hetml.erb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "_shim.hetml.erb-Info.plist"; sourceTree = "<group>"; };
+		10AED35A1BA982E100E951B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10AED35C1BA982E100E951B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10AED35E1BA982E100E951B1 /* _shim.hetml.erb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "_shim.hetml.erb-Prefix.pch"; sourceTree = "<group>"; };
+		10AED3601BA982E100E951B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		10AED3621BA982E100E951B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10AED3631BA982E100E951B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10AED3661BA982E100E951B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		10AED3681BA982E100E951B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10AED36E1BA982E200E951B1 /* _shim.hetml.erbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _shim.hetml.erbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AED36F1BA982E200E951B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		10AED3761BA982E200E951B1 /* _shim.hetml.erbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "_shim.hetml.erbTests-Info.plist"; sourceTree = "<group>"; };
+		10AED3781BA982E200E951B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10AED37A1BA982E200E951B1 /* _shim_hetml_erbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _shim_hetml_erbTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10AED34A1BA982E100E951B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AED3511BA982E100E951B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AED36B1BA982E200E951B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AED3711BA982E200E951B1 /* Cocoa.framework in Frameworks */,
+				10AED3701BA982E200E951B1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AED3441BA982E100E951B1 = {
+			isa = PBXGroup;
+			children = (
+				10AED3561BA982E100E951B1 /* _shim.hetml.erb */,
+				10AED3741BA982E200E951B1 /* _shim.hetml.erbTests */,
+				10AED34F1BA982E100E951B1 /* Frameworks */,
+				10AED34E1BA982E100E951B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10AED34E1BA982E100E951B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10AED34D1BA982E100E951B1 /* _shim.hetml.erb.app */,
+				10AED36E1BA982E200E951B1 /* _shim.hetml.erbTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10AED34F1BA982E100E951B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10AED3501BA982E100E951B1 /* Cocoa.framework */,
+				10AED36F1BA982E200E951B1 /* XCTest.framework */,
+				10AED3521BA982E100E951B1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10AED3521BA982E100E951B1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10AED3531BA982E100E951B1 /* AppKit.framework */,
+				10AED3541BA982E100E951B1 /* CoreData.framework */,
+				10AED3551BA982E100E951B1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		10AED3561BA982E100E951B1 /* _shim.hetml.erb */ = {
+			isa = PBXGroup;
+			children = (
+				10AED3621BA982E100E951B1 /* AppDelegate.h */,
+				10AED3631BA982E100E951B1 /* AppDelegate.m */,
+				10AED3651BA982E100E951B1 /* MainMenu.xib */,
+				10AED3681BA982E100E951B1 /* Images.xcassets */,
+				10AED3571BA982E100E951B1 /* Supporting Files */,
+			);
+			path = _shim.hetml.erb;
+			sourceTree = "<group>";
+		};
+		10AED3571BA982E100E951B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10AED3581BA982E100E951B1 /* _shim.hetml.erb-Info.plist */,
+				10AED3591BA982E100E951B1 /* InfoPlist.strings */,
+				10AED35C1BA982E100E951B1 /* main.m */,
+				10AED35E1BA982E100E951B1 /* _shim.hetml.erb-Prefix.pch */,
+				10AED35F1BA982E100E951B1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10AED3741BA982E200E951B1 /* _shim.hetml.erbTests */ = {
+			isa = PBXGroup;
+			children = (
+				10AED37A1BA982E200E951B1 /* _shim_hetml_erbTests.m */,
+				10AED3751BA982E200E951B1 /* Supporting Files */,
+			);
+			path = _shim.hetml.erbTests;
+			sourceTree = "<group>";
+		};
+		10AED3751BA982E200E951B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10AED3761BA982E200E951B1 /* _shim.hetml.erbTests-Info.plist */,
+				10AED3771BA982E200E951B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10AED34C1BA982E100E951B1 /* _shim.hetml.erb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AED37E1BA982E200E951B1 /* Build configuration list for PBXNativeTarget "_shim.hetml.erb" */;
+			buildPhases = (
+				10AED3491BA982E100E951B1 /* Sources */,
+				10AED34A1BA982E100E951B1 /* Frameworks */,
+				10AED34B1BA982E100E951B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _shim.hetml.erb;
+			productName = _shim.hetml.erb;
+			productReference = 10AED34D1BA982E100E951B1 /* _shim.hetml.erb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10AED36D1BA982E200E951B1 /* _shim.hetml.erbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AED3811BA982E200E951B1 /* Build configuration list for PBXNativeTarget "_shim.hetml.erbTests" */;
+			buildPhases = (
+				10AED36A1BA982E200E951B1 /* Sources */,
+				10AED36B1BA982E200E951B1 /* Frameworks */,
+				10AED36C1BA982E200E951B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AED3731BA982E200E951B1 /* PBXTargetDependency */,
+			);
+			name = _shim.hetml.erbTests;
+			productName = _shim.hetml.erbTests;
+			productReference = 10AED36E1BA982E200E951B1 /* _shim.hetml.erbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10AED3451BA982E100E951B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = kanta;
+				TargetAttributes = {
+					10AED36D1BA982E200E951B1 = {
+						TestTargetID = 10AED34C1BA982E100E951B1;
+					};
+				};
+			};
+			buildConfigurationList = 10AED3481BA982E100E951B1 /* Build configuration list for PBXProject "_shim.hetml.erb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10AED3441BA982E100E951B1;
+			productRefGroup = 10AED34E1BA982E100E951B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10AED34C1BA982E100E951B1 /* _shim.hetml.erb */,
+				10AED36D1BA982E200E951B1 /* _shim.hetml.erbTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AED34B1BA982E100E951B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AED35B1BA982E100E951B1 /* InfoPlist.strings in Resources */,
+				10AED3691BA982E100E951B1 /* Images.xcassets in Resources */,
+				10AED3611BA982E100E951B1 /* Credits.rtf in Resources */,
+				10AED3671BA982E100E951B1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AED36C1BA982E200E951B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AED3791BA982E200E951B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10AED3491BA982E100E951B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AED3641BA982E100E951B1 /* AppDelegate.m in Sources */,
+				10AED35D1BA982E100E951B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10AED36A1BA982E200E951B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AED37B1BA982E200E951B1 /* _shim_hetml_erbTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AED3731BA982E200E951B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10AED34C1BA982E100E951B1 /* _shim.hetml.erb */;
+			targetProxy = 10AED3721BA982E200E951B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10AED3591BA982E100E951B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AED35A1BA982E100E951B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10AED35F1BA982E100E951B1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AED3601BA982E100E951B1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		10AED3651BA982E100E951B1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AED3661BA982E100E951B1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		10AED3771BA982E200E951B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AED3781BA982E200E951B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10AED37C1BA982E200E951B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10AED37D1BA982E200E951B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10AED37F1BA982E200E951B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "_shim.hetml.erb/_shim.hetml.erb-Prefix.pch";
+				INFOPLIST_FILE = "_shim.hetml.erb/_shim.hetml.erb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10AED3801BA982E200E951B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "_shim.hetml.erb/_shim.hetml.erb-Prefix.pch";
+				INFOPLIST_FILE = "_shim.hetml.erb/_shim.hetml.erb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10AED3821BA982E200E951B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/_shim.hetml.erb.app/Contents/MacOS/_shim.hetml.erb";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "_shim.hetml.erb/_shim.hetml.erb-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "_shim.hetml.erbTests/_shim.hetml.erbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		10AED3831BA982E200E951B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/_shim.hetml.erb.app/Contents/MacOS/_shim.hetml.erb";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "_shim.hetml.erb/_shim.hetml.erb-Prefix.pch";
+				INFOPLIST_FILE = "_shim.hetml.erbTests/_shim.hetml.erbTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AED3481BA982E100E951B1 /* Build configuration list for PBXProject "_shim.hetml.erb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AED37C1BA982E200E951B1 /* Debug */,
+				10AED37D1BA982E200E951B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AED37E1BA982E200E951B1 /* Build configuration list for PBXNativeTarget "_shim.hetml.erb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AED37F1BA982E200E951B1 /* Debug */,
+				10AED3801BA982E200E951B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10AED3811BA982E200E951B1 /* Build configuration list for PBXNativeTarget "_shim.hetml.erbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AED3821BA982E200E951B1 /* Debug */,
+				10AED3831BA982E200E951B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10AED3451BA982E100E951B1 /* Project object */;
+}
