@@ -6,8 +6,9 @@ class UsersController < ApplicationController
       @user = User.new
   end
   def create
-      @user = User.new(params[:user])    # 実装は終わっていないことに注意!
+      @user = User.new(user_params)    # 実装は終わっていないことに注意!
       if @user.save
+          sign_in @user
           flash[:success] = "Welcome to the Sample App!"
           redirect_to @user
           else
