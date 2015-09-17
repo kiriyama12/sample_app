@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   
   def new
       @user = User.new
+      @microposts = @user.microposts.paginate(page: params[:page])
   end
   def create
       @user = User.new(user_params)    # 実装は終わっていないことに注意!
